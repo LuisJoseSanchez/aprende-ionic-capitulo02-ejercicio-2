@@ -10,65 +10,8 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-
   <br>
-
-  <a href="https://malagacatedral.com/">
-    <ion-list>
-      <ion-list-header color="primary">
-        <ion-icon name="business-outline" size="large"></ion-icon>
-        &nbsp;Monumentos
-      </ion-list-header>
-      <ion-item color="secondary">
-        <ion-thumbnail slot="end">
-          <img src="../../assets/img/catedral.jpg">
-        </ion-thumbnail>
-        <ion-label>
-          <h3>Catedral</h3>
-          <p>También conocida como <strong>La Manquita</strong>.</p>
-        </ion-label>
-      </ion-item>
-    </ion-list>
-  </a>
-  
-  <ion-list>
-    <ion-list-header color="primary">
-      <ion-icon name="walk-outline" size="large"></ion-icon>
-      Lugares para pasear
-    </ion-list-header>
-    <ion-item color="secondary">
-      <ion-thumbnail slot="end">
-        <img src="../../assets/img/larios.jpg">
-      </ion-thumbnail>
-      <ion-label>
-        <h3>Calle Larios</h3>
-        <p>Ideal para ir de compras.</p>
-      </ion-label>
-    </ion-item>
-    <ion-item color="secondary">
-      <ion-thumbnail slot="end">
-        <img src="../../assets/img/malagueta.jpg">
-      </ion-thumbnail>
-      <ion-label>
-        <h3>La Malagueta</h3>
-        <p>Bonita playa para ir a correr.</p>
-      </ion-label>
-    </ion-item>
-  </ion-list>
-
-  <ion-list>
-    <ion-list-header color="primary">
-      <ion-icon name="train-outline" size="large"></ion-icon>
-      &nbsp;Transporte
-    </ion-list-header>
-    <ion-item color="secondary">
-      <ion-thumbnail slot="end">
-        <img src="../../assets/img/estacion.jpg">
-      </ion-thumbnail>
-      <ion-label>
-        <h3>Estación María Zambrano</h3>
-        <p>Acceso a trenes, metro, tiendas y restauración.</p>
-      </ion-label>
-    </ion-item>
-  </ion-list>
+  <app-monuments></app-monuments>
+  <app-walk></app-walk>
+  <app-transport></app-transport>
 </ion-content>
